@@ -21,6 +21,8 @@ HikariCP & Tomcat CP
 % psql -U abhilashgd
 abhilashgd=# \l
 abhilashgd=# \c abhilashgd //to connect to abhilashgd database
+abhilashgd-# \d //to display all relations
+abhilashgd-# \dt //to display only tables
 abhilashgd=# select * from movie; // displays below
 id | name | release_date
 ----+------+--------------
